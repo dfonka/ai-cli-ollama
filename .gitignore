@@ -1,0 +1,12 @@
+gitignore = """\
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.build/
+dist/
+*.egg-info/
+.venv/
+.env
+"""
+open(os.path.join(root, ".gitignore"), "w").write(gitignore)
